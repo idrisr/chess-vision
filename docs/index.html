@@ -1,20 +1,16 @@
-<!doctype html>
-<head>
-</head>
+---
+title: BigDick Rick
+message: Hello
+---
 
-<body>
-    <h1> hello github pages </h1>
-    <ul>
-        <li>
-            this is a test
-        </li>
-        <li>
-            why no page deploy
-        </li>
-        <li>
-            you just need to wait a while
-        </li>
-    </ul>
-</body>
-
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <h1>{{ page.message | downcase }}</h1>
+        <h1>{{ page.title   | downcase }}</h1>
+    </body>
+</html>
