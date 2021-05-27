@@ -10,7 +10,7 @@ setuptools.setup(
     author="Idris Raja",
     author_email="idris.raja@gmail.com",
     description="A small utility package",
-    install_requires=['fastai']
+    install_requires=['fastai'],
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/idrisr/chess-vision",
