@@ -3,3 +3,5 @@ venv/
 data/
 .jekyll-cache
 models/
+__pycache__
+*.egg-info
