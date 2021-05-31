@@ -41,7 +41,7 @@ def _parent_idxs(items, name):
 
 
 def ParentSplitter(train_name='train', valid_name='valid'):
-    "Split `items` from the grand parent folder names (`train_name` and `valid_name`)."
+    "Split `items` from the parent folder names (`train_name` and `valid_name`)."
     def _inner(o):
         return _parent_idxs(o, train_name),_parent_idxs(o, valid_name)
     return _inner
