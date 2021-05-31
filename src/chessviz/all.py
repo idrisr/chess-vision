@@ -4,6 +4,8 @@ from fastai.vision.all import *
 
 __all__ = ['NoLabelBBoxLabeler', 'BBoxTruth', 'iou', 'ParentSplitter', 'NoLabelBBoxBlock']
 
+URLs.CHESS_TINY="https://chess-screenshots.s3.amazonaws.com/chess-screenshots-tiny.tgz"
+
 class NoLabelBBoxLabeler(Transform):
     """ Bounding box labeler with no label """
     def setups(self, x): noop
